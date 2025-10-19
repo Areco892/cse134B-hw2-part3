@@ -114,11 +114,11 @@
                     <strong>Photon source:</strong> Helium-Neon laser, &lambda; = 632.8 nm, power 5 mW
                 </p>
             </details>
-            <strong>Example replicate comman (experimental automation):</strong>
-            <pre>./qed_control --mode entangle --temp 77K --pressuer 1.21 GPa --duration 00:04:30 --output run_2025-06-12.json</pre>
+            <strong>Example replicate command (experimental automation):</strong>
+            <pre>./qed_control --mode entangle --temp 77K --pressure 1.21GPa --duration 00:04:30 --output run_2025-06-12.json</pre>
             <p>Use <kbd>Ctrl+C</kbd> to cancel in the terminal if you need to abort the run.</p>
             <figure>
-                <img src="starbucks.jpg" alt="Crowded Starbucks" width="390">
+                <img src="starbucks.jpg" alt="Crowded Starbucks" width="400" height="300">
                 <figcaption><strong>Figure 1:</strong> Schematic representation of the quantum coffee preparation
                     apparatus. The entanglement chamber (center) maintains coherence through magnetic confinement.
                 </figcaption>
@@ -175,11 +175,43 @@
                 occurred at 10:47 AM, with sustained effects until 4:23 PM.
             </p>
             <figure>
-                <svg width="12" height="12" viewBox="0 2 10 10" xmlns="http://www.w3.org/2000/svg"
-                    style="vertical-align: middle;">
-                    <polygon points="0,0 10,0 5,10" fill="black" />
-                </svg>
+                <svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="100%" height="100%" fill="#fafafa"></rect>
+                    <text x="50%" y="10%" font-size="16" font-family="Arial" text-anchor="middle" fill="gray">Figure 2:
+                        Productivity Over Time</text>
 
+                    <polygon points="78,120 319,71 319,220 78,220" fill="#b3e5fc">
+                    </polygon>
+
+                    <line x1="80" y1="220" x2="120" y2="180" stroke="#3a8bcc" stroke-width="3"></line>
+                    <line x1="120" y1="180" x2="160" y2="140" stroke="#3a8bcc" stroke-width="3"></line>
+                    <line x1="160" y1="140" x2="200" y2="120" stroke="#3a8bcc" stroke-width="3"></line>
+                    <line x1="200" y1="120" x2="240" y2="105" stroke="#3a8bcc" stroke-width="3"></line>
+                    <line x1="240" y1="105" x2="280" y2="90" stroke="#3a8bcc" stroke-width="3"></line>
+                    <line x1="280" y1="90" x2="320" y2="75" stroke="#3a8bcc" stroke-width="3"></line>
+                    <line x1="320" y1="75" x2="370" y2="105" stroke="#3a8bcc" stroke-width="3"></line>
+                    <line x1="370" y1="105" x2="405" y2="165" stroke="#3a8bcc" stroke-width="3"></line>
+                    <line x1="405" y1="165" x2="445" y2="220" stroke="#3a8bcc" stroke-width="3"></line>
+
+                    <circle cx="16%" cy="73%" r="4" fill="#3a8bcc"></circle>
+                    <circle cx="24%" cy="60%" r="4" fill="#3a8bcc"></circle>
+                    <circle cx="32%" cy="47%" r="4" fill="#3a8bcc"></circle>
+                    <circle cx="40%" cy="40%" r="4" fill="#3a8bcc"></circle>
+                    <circle cx="48%" cy="35%" r="4" fill="#3a8bcc"></circle>
+                    <circle cx="56%" cy="30%" r="4" fill="#3a8bcc"></circle>
+                    <circle cx="64%" cy="25%" r="4" fill="#3a8bcc"></circle>
+                    <circle cx="74%" cy="35%" r="4" fill="#3a8bcc"></circle>
+                    <circle cx="81%" cy="55%" r="4" fill="#3a8bcc"></circle>
+                    <circle cx="89%" cy="73%" r="4" fill="#3a8bcc"></circle>
+
+                    <text x="19%" y="80%" font-size="12" font-family="Times New Romans" text-anchor="middle"
+                        fill="black">8 AM</text>
+                    <text x="67%" y="80%" font-size="12" font-family="Times New Romans" text-anchor="middle"
+                        fill="black">12 PM</text>
+                    <text x="91%" y="80%" font-size="12" font-family="Times New Romans" text-anchor="middle"
+                        fill="black">5 PM</text>
+
+                </svg>
                 <figcaption><strong>Figure 2:</strong> Temporal distribution of productivity enhancement. The shaded
                     region indicates the quantum coherence window. NOTE: The svg does not have to match the sample
                     provided above.</figcaption>
@@ -218,17 +250,11 @@
         <h1>References</h1>
         <ol>
             <li>Smith, J. "A Brief History of Caffeine Addiction." <cite>Journal of Procrastination Studies</cite>, vol.
-                42,
-                2020,
-                pp. 123-145.</li>
+                42, 2020, pp. 123-145.</li>
             <li>Johnson, K., et al. "Quantum Superposition in Beverage Sciences." <cite>Physical Review Coffee</cite>,
-                vol.
-                13, 2024,
-                pp. 456-478.</li>
-            <li>Chen, L. "Temporal Mechanics of Office Productivity." <cite>Annals of Corporate Physics</cite>, vol.
-                7,
-                2023, pp.
-                89-101.</li>
+                vol.13, 2024, pp. 456-478.</li>
+            <li>Chen, L. "Temporal Mechanics of Office Productivity." <cite>Annals of Corporate Physics</cite>,
+                vol.7,2023, pp.89-101.</li>
         </ol>
 
         <fieldset>
@@ -236,13 +262,13 @@
 
             <label for="coffee">Favorite Coffee:</label>
             <select name="coffee">
-                <optgroup label="Hot Coffee">
+                <optgroup label="Common Coffee">
                     <option>Latte</option>
                     <option>Espresso</option>
                     <option>Cappuccino</option>
                 </optgroup>
                 <optgroup label="Cold Coffee">
-                    <option>Iced Latte</option>
+                    <option>Panama Geisha</option>
                     <option>Cold Brew</option>
                 </optgroup>
             </select>
